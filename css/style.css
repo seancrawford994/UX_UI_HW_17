@@ -1,186 +1,67 @@
-body {
-  font-family: 'Poppins', sans-serif;
+.inline-block{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 15px;
 }
 
-/* Grid CSS */
-#heroGrid{
-  margin: 0px 5%;
-  display: grid;
-  min-height: 500px;
-  height: 70vh;
-  grid-template-rows: 75% 25%;
-  grid-template-columns: 75% 25%;
-  grid-template-areas: 
-  "featuredProduct secondaryProduct"
-  "featuredProduct CTA"
-  ;
-  
-}
-
-
-#featuredProduct{
-  grid-area: featuredProduct;
-  background-image: url("../images/furniture1.png");
-}
-
-#secondaryProduct{
-  grid-area: secondaryProduct;
-  background-image: url("../images/furniture2.png");
-}
-
-#CTA{
-  grid-area: CTA;
-  justify-content: 0px 5%;
-  cursor: pointer;
-  background-image: url("../images/woodbg.png");
-}
-
-.heroGridArea{
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  align-items: center;
-  display: flex;
-  position: relative;
-}
-
-#headline{
-  border: 5px solid #FF6200;
-  background-color: rgba(225, 225, 225, 0.8);
-  position: absolute;
-  right: 10px;
-  top: 50px;
-  z-index: 1;
-}
-
-
-/* Category Grid CSS */
-
-
-
-
-/* Navigation CSS */
-.subHeading{
+.logo{
+  max-width: 23px;
+  padding: 1%;
   text-align: center;
-  border-bottom: 2px solid black;
-  width: 300px;
-  margin: 50px auto;
 }
 
-#categoryGrid{
-  margin: 0px 5%;
-  display: grid;
-  grid-template-rows: 300px 300px 300px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: 
-  "bookcases bedroom patio"
-  "couches couches patio"
-  "desks desks desks"
-  ;
+.navigation{
+  background-color: lightgray;
 }
 
-#bookcases{
-  grid-area: bookcases;
-  background-image: url("../images/bookcases.png")
-}
-#bedroom{
-  grid-area: bedroom;
-  background-image: url("../images/beds.png")
-}
-#couches{
-  grid-area: couches;
-  background-image: url("../images/couch.png")
-}
-#patio{
-  grid-area: patio;
-  background-image: url("../images/patio@2x.png")
-}
-#desks{
-  grid-area: desks;
-  background-image: url("../images/desks.png")
+nav{
+  width: 73%;
+  padding: 1%;
 }
 
-.categoryGridArea{
-  background-position: center;
+ul{
+  width: 90%;
+  margin-left: auto;
+}
+
+.heroImg{
+  height: 600px;
+  padding: 25px;
+  background-color: lightgoldenrodyellow;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 5px;
-  cursor: pointer;
-  display: grid;
-  align-content: end;
 }
 
-.heading{
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 15px;
+.content{
+  width: 500px;
+  margin: 0 auto;
+}
+
+footer{
+  background-color: goldenrod;
+}
+
+li{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+  width: 150px;
   height: 25px;
-  color: white;
-  font-size: 18px;
-  border-bottom: 5px solid #FF6200;
 }
 
 
 
-/* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */
-#navBar {
-  display: flex;
-  flex-direction: row;
-  margin: 0px 5%;
-}
-#navBar h1 {
-  width: 25%;
-  font-weight: 500;
-}
-#navigation {
-  display: flex;
-  width: 50%;
-  align-items: center;
-  justify-content: space-evenly;
-}
-#navigation p {
-  cursor: pointer;
-  text-decoration: none;
-}
-.icons {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 25%;
-}
-.icons img {
-  margin: 15px;
-  cursor: pointer;
-}
-.highlight {
-  color: #FF6200;
-  font-weight: 700;
-}
-
-/* Typography CSS */
-
-h2 {
-  font-size: 60px;
-  margin: 0px 0px;
-  color: #FF6200;
-}
-
-h3 {
-  font-size: 32px;
-  font-weight: 300;
-  margin: 0px 0px;
-}
-
-h4 {
-  color: white;
-  font-weight: 400;
-  font-size: 22px;
-}
 
 
-#headline p {
-  max-width: 350px;
-  font-size: 16px;
-  font-weight: 300;
-  margin: 0px 0px;
-  color: #636364;
-}
+
+
+
+
+
+
+
